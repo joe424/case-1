@@ -11,7 +11,7 @@ Output train_form.csv / test_form.csv with predicted label(type), which will be 
 * judge_output():<br>Output the accuracy achieved by regx method 
 
 
-### [main.ipynb](joe424/digital_medicine_case1/blob/branch/main.ipynb) 
+### [main.ipynb](./main.ipynb) 
 Function: Train data and output the predict label.
 * Taking <font color=#336699>train_form.csv</font>, <font color=#336699>test_form.csv</font> as input, and then train the data sets using PyTorch provided Model, so called "glove.6B.100d", which is featured in text pattern.
 * Hyper parameters
