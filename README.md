@@ -17,7 +17,7 @@ N rows of predicted labels representing N test data respectively, given that
 >  0 : "current_smoker", 1 : "non_smoker", 2 : "past_smoker", 3 : "unknown"
 
 ### details
-https://docs.google.com/document/d/1rMlVUad5CVz59byDkLrGY3FJckvJttZtNLYZUJGg5Fw/
+https://docs.google.com/document/d/1rMlVUad5CVz59byDkLrGY3FJckvJttZtNLYZUJGg5Fw/edit?usp=sharing
 
 
 
