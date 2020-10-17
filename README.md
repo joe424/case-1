@@ -1,19 +1,20 @@
 # Digital_medicine_case1
 
 Case presentation 1: Smoking Status Detection 
-
+## Environment
+google colab
 ## Implementation approach
 ### pattern_matching.ipynb
 Function: Recognize patterns using regx.
 * parse_file():<br>Take training and testing data as input. 
-Output train_form.csv, test_form.csv containging predicted label(type), which will be later used and trained in main.ipynb.
+Output <font color=#336699>train_form.csv</font>, <font color=#336699>test_form.csv</font> containging predicted label(type), which will be later used and trained in main.ipynb.
+* judge_output():<br>Output the accuracy achieved by regx method 
 
 
 ### main.ipynb 
-Function: Training data and output the predict label
-Taking the output of parse.ipynb as input,and then train the data sets using PyTorch provided Model ,so called "glove.6B.100d", which is featured in text pattern.
-
-Hyper parameters :
+Function: Train data and output the predict label.
+* Taking <font color=#336699>train_form.csv</font>, <font color=#336699>test_form.csv</font> as input, and then train the data sets using PyTorch provided Model, so called "glove.6B.100d", which is featured in text pattern.
+* Hyper parameters
 >         embedding_dim = 100
 >         hidden_nodes = 32
 >         num_layers = 2
