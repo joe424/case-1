@@ -4,7 +4,7 @@ Case presentation 1: Smoking Status Detection
 ## Environment
 google colab
 ## Implementation approach
-### pattern_matching.ipynb
+### [pattern_matching.ipynb](./pattern_matching.ipynb)
 Function: Recognize patterns using regx.
 * parse_file():<br>Take training and testing data as input. 
 Output train_form.csv / test_form.csv with predicted label(type), which will be later used and trained in main.ipynb.
