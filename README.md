@@ -13,7 +13,7 @@ Taking the output of parse.ipynb as input,and then train the data sets using PyT
 
 ### output
 
-N row of predicted label representing N test data respectively, given that
+N rows of predicted labels representing N test data respectively, given that
 >  0 : "current_smoker", 1 : "non_smoker", 2 : "past_smoker", 3 : "unknown"
 
 
